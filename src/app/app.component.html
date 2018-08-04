@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="nav navbar-expand navbar-light bg-light">
+  <a class="navbar-brand">{{ title }}</a>
+  <ul class="nav nav-pills">
+    <li>
+      <a [routerLink]="['/welcome']" class="flex-sm-fill text-sm-center nav-link active">Home</a>
+    </li>
+    <li>
+      <a [routerLink]="['/products']" class="flex-sm-fill text-sm-center nav-link">Products List</a>
+    </li>
+  </ul>
+</nav>
+<div class="container" style="padding-top: 10px">
+  <router-outlet></router-outlet>
+</div>
